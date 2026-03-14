@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulir Pendaftaran Praktikan</title>
+
+<style>
+body{
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 420px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 6px;
+}
+
+.label{
+    width: 170px;
+}
+
+.titik{
+    width: 10px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-submit{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cancel{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-color: #45a049;
+}
+
+.btn-cancel:hover{
+    background-color: #d32f2f;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h2>Formulir Pendaftaran Praktikan</h2>
+
+<form>
+<table>
+
+<tr>
+<td class="label">Nama</td>
+<td class="titik">:</td>
+<td><input type="text" placeholder="Input Nama"></td>
+</tr>
+
+<tr>
+<td class="label">NIM</td>
+<td class="titik">:</td>
+<td><input type="text" placeholder="Input NIM"></td>
+</tr>
+
+<tr>
+<td class="label">Username</td>
+<td class="titik">:</td>
+<td><input type="text" placeholder="Input Username"></td>
+</tr>
+
+<tr>
+<td class="label">Password</td>
+<td class="titik">:</td>
+<td><input type="password" placeholder="Input Password"></td>
+</tr>
+
+<tr>
+<td class="label">Email</td>
+<td class="titik">:</td>
+<td><input type="email" placeholder="Input Email"></td>
+</tr>
+
+<tr>
+<td class="label">Jenis Kelamin</td>
+<td class="titik">:</td>
+<td>
+<input type="radio" name="jk"> Pria
+<input type="radio" name="jk"> Wanita
+</td>
+</tr>
+
+<tr>
+<td class="label">Hobi</td>
+<td class="titik">:</td>
+<td>
+<input type="checkbox"> Renang<br>
+<input type="checkbox"> Bersepeda<br>
+<input type="checkbox"> Memancing
+</td>
+</tr>
+
+<tr>
+<td class="label">Jenjang Pendidikan</td>
+<td class="titik">:</td>
+<td>
+<select>
+<option>------Pilih------</option>
+<option>D3</option>
+<option>S1</option>
+<option>S2</option>
+<option>S3</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="label">Kritik & Saran</td>
+<td class="titik">:</td>
+<td><textarea rows="4"></textarea></td>
+</tr>
+
+<tr>
+<td colspan="3" align="right">
+<input type="reset" value="Cancel" class="btn-cancel">
+<input type="submit" value="Submit" class="btn-submit">
+</td>
+</tr>
+
+</table>
+</form>
+
+</div>
+
+</body>
+</html>

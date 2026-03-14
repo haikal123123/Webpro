@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Profil Individu</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+background:#e5e7eb;
+font-family:'Roboto',sans-serif;
+color:black;
+}
+
+.card-profile{
+max-width:800px;
+margin:60px auto;
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+text-align:center;
+}
+
+h2{
+font-family:'Poppins',sans-serif;
+letter-spacing:2px;
+}
+
+.avatar{
+width:120px;
+height:120px;
+border-radius:50%;
+background:black;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:42px;
+margin:20px auto;
+border:4px solid #39FF14;
+}
+
+.name{
+display:inline-block;
+background:#39FF14;
+color:black;
+padding:6px 18px;
+border-radius:6px;
+font-family:'Montserrat',sans-serif;
+font-weight:bold;
+margin-top:10px;
+}
+
+.desc{
+color:#555;
+margin-top:10px;
+}
+
+.btn-profile{
+background:#39FF14;
+border:none;
+padding:10px 20px;
+color:black;
+border-radius:8px;
+margin-top:15px;
+font-weight:bold;
+}
+
+.btn-profile:hover{
+background:#2be40f;
+}
+
+.section-title{
+text-align:left;
+margin-top:35px;
+font-weight:bold;
+border-bottom:2px solid #39FF14;
+padding-bottom:6px;
+font-family:'Poppins',sans-serif;
+}
+
+.info-table td{
+padding:12px;
+border-bottom:1px solid #ddd;
+}
+
+.info-table td:first-child{
+width:220px;
+font-weight:bold;
+color:black;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card-profile">
+
+<h2>PROFIL INDIVIDU</h2>
+
+<div class="avatar">AP</div>
+
+<div class="name">HAIKAL SATRIATAMA</div>
+
+<p class="desc">
+Saya Mahasiswa S1 Telkom University Purwokerto, Memiliki ketertarikan kuat dalam pengembangan Web dan Teknologi Digital 
+</p>
+
+<button class="btn-profile"
+data-bs-toggle="collapse"
+data-bs-target="#profilLengkap">
+Lihat Profil Lengkap
+</button>
+
+<div class="collapse" id="profilLengkap">
+
+<h5 class="section-title">Informasi Personal & Teknis</h5>
+
+<table class="table info-table mt-3">
+
+<tr>
+<td>Asal Kota</td>
+<td>Purworejo, Jawa Tengah</td>
+</tr>
+
+<tr>
+<td>Fokus Pengembangan</td>
+<td>
+Web Dev: HTML, CSS, Javascript<br>
+Mobile Dev: Flutter
+</td>
+</tr>
+
+<tr>
+<td>Hobi & Aktivitas</td>
+<td>Bermain game, Mendengarkan musik, Bermain bola</td>
+</tr>
+
+<tr>
+<td>Projek Unggulan</td>
+<td>
+Project membuat web Coffee shop<br>
+Project penjualan tiket hotel secara online<br>
+Project penjualan tiket konser
+</td>
+</tr>
+
+<tr>
+<td>Sertifikasi</td>
+<td></td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
