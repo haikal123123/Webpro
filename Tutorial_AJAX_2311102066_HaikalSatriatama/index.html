@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu Cafe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Coffee Menu</h1>
+
+<p><b>Nama:</b> Haikal Satriatama</p>
+<p><b>NIM:</b> 2311102066</p>
+
+<button onclick="loadMenu()">Tampilkan Menu</button>
+
+<h3>Tambah / Update Menu</h3>
+
+Nama Kopi<br>
+<input type="text" id="nama"><br><br>
+
+Hot<br>
+<input type="text" id="hot"><br><br>
+
+Ice M<br>
+<input type="text" id="icem"><br><br>
+
+Ice L<br>
+<input type="text" id="icel"><br><br>
+
+<button onclick="tambahMenu()">Tambah</button>
+<button onclick="updateMenu()">Update</button>
+
+<h2>Berikut daftar kopi yang tersedia</h2>
+
+<table border="1">
+<thead>
+<tr>
+<th>No</th>
+<th>Nama Kopi</th>
+<th>Hot</th>
+<th>Ice M</th>
+<th>Ice L</th>
+<th>Aksi</th>
+</tr>
+</thead>
+
+<tbody id="dataMenu">
+</tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>

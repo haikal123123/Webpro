@@ -1,0 +1,47 @@
+{
+ "message": "Berikut daftar kopi yang tersedia",
+ "coffees": [
+  {
+   "nama_produk":"Americano",
+   "hot":"-",
+   "ice_m":"15000",
+   "ice_l":"20000"
+  },
+  {
+   "nama_produk":"Cafe Latte",
+   "hot":"18000",
+   "ice_m":"20000",
+   "ice_l":"-"
+  },
+  {
+   "nama_produk":"Cappuccino",
+   "hot":"18000",
+   "ice_m":"20000",
+   "ice_l":"-"
+  },
+  {
+   "nama_produk":"Espresso",
+   "hot":"10000",
+   "ice_m":"-",
+   "ice_l":"-"
+  },
+  {
+   "nama_produk":"Aren Latte",
+   "hot":"16000",
+   "ice_m":"21000",
+   "ice_l":"-"
+  },
+  {
+   "nama_produk":"Caramel Latte",
+   "hot":"18000",
+   "ice_m":"23000",
+   "ice_l":"-"
+  },
+  {
+   "nama_produk":"Vanilla Latte",
+   "hot":"18000",
+   "ice_m":"23000",
+   "ice_l":"-"
+  }
+ ]
+}
